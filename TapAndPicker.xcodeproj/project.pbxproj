@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD475965290597EF00E44790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD475964290597EF00E44790 /* AppDelegate.swift */; };
+		FD475967290597EF00E44790 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD475966290597EF00E44790 /* SceneDelegate.swift */; };
+		FD475969290597EF00E44790 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD475968290597EF00E44790 /* DatePickerViewController.swift */; };
+		FD47596C290597EF00E44790 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD47596A290597EF00E44790 /* Main.storyboard */; };
+		FD47596E290597F300E44790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD47596D290597F300E44790 /* Assets.xcassets */; };
+		FD475971290597F300E44790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD47596F290597F300E44790 /* LaunchScreen.storyboard */; };
+		FD47597C290597F300E44790 /* TapAndPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD47597B290597F300E44790 /* TapAndPickerTests.swift */; };
+		FD475986290597F300E44790 /* TapAndPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD475985290597F300E44790 /* TapAndPickerUITests.swift */; };
+		FD475988290597F300E44790 /* TapAndPickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD475987290597F300E44790 /* TapAndPickerUITestsLaunchTests.swift */; };
+		FD47599729059A2600E44790 /* MultiComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD47599629059A2600E44790 /* MultiComponentPickerViewController.swift */; };
+		FD4759D72905B3FF00E44790 /* ComponentEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4759D62905B3FF00E44790 /* ComponentEnum.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD475978290597F300E44790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD475959290597EF00E44790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD475960290597EF00E44790;
+			remoteInfo = TapAndPicker;
+		};
+		FD475982290597F300E44790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD475959290597EF00E44790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD475960290597EF00E44790;
+			remoteInfo = TapAndPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD475961290597EF00E44790 /* TapAndPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapAndPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD475964290597EF00E44790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD475966290597EF00E44790 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FD475968290597EF00E44790 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		FD47596B290597EF00E44790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD47596D290597F300E44790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD475970290597F300E44790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD475972290597F300E44790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD475977290597F300E44790 /* TapAndPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapAndPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD47597B290597F300E44790 /* TapAndPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapAndPickerTests.swift; sourceTree = "<group>"; };
+		FD475981290597F300E44790 /* TapAndPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapAndPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD475985290597F300E44790 /* TapAndPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapAndPickerUITests.swift; sourceTree = "<group>"; };
+		FD475987290597F300E44790 /* TapAndPickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapAndPickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FD47599629059A2600E44790 /* MultiComponentPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiComponentPickerViewController.swift; sourceTree = "<group>"; };
+		FD4759D62905B3FF00E44790 /* ComponentEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentEnum.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD47595E290597EF00E44790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD475974290597F300E44790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD47597E290597F300E44790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD475958290597EF00E44790 = {
+			isa = PBXGroup;
+			children = (
+				FD475963290597EF00E44790 /* TapAndPicker */,
+				FD47597A290597F300E44790 /* TapAndPickerTests */,
+				FD475984290597F300E44790 /* TapAndPickerUITests */,
+				FD475962290597EF00E44790 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD475962290597EF00E44790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD475961290597EF00E44790 /* TapAndPicker.app */,
+				FD475977290597F300E44790 /* TapAndPickerTests.xctest */,
+				FD475981290597F300E44790 /* TapAndPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD475963290597EF00E44790 /* TapAndPicker */ = {
+			isa = PBXGroup;
+			children = (
+				FD475964290597EF00E44790 /* AppDelegate.swift */,
+				FD475966290597EF00E44790 /* SceneDelegate.swift */,
+				FD475968290597EF00E44790 /* DatePickerViewController.swift */,
+				FD47599629059A2600E44790 /* MultiComponentPickerViewController.swift */,
+				FD4759D62905B3FF00E44790 /* ComponentEnum.swift */,
+				FD47596A290597EF00E44790 /* Main.storyboard */,
+				FD47596D290597F300E44790 /* Assets.xcassets */,
+				FD47596F290597F300E44790 /* LaunchScreen.storyboard */,
+				FD475972290597F300E44790 /* Info.plist */,
+			);
+			path = TapAndPicker;
+			sourceTree = "<group>";
+		};
+		FD47597A290597F300E44790 /* TapAndPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD47597B290597F300E44790 /* TapAndPickerTests.swift */,
+			);
+			path = TapAndPickerTests;
+			sourceTree = "<group>";
+		};
+		FD475984290597F300E44790 /* TapAndPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD475985290597F300E44790 /* TapAndPickerUITests.swift */,
+				FD475987290597F300E44790 /* TapAndPickerUITestsLaunchTests.swift */,
+			);
+			path = TapAndPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD475960290597EF00E44790 /* TapAndPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD47598B290597F300E44790 /* Build configuration list for PBXNativeTarget "TapAndPicker" */;
+			buildPhases = (
+				FD47595D290597EF00E44790 /* Sources */,
+				FD47595E290597EF00E44790 /* Frameworks */,
+				FD47595F290597EF00E44790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapAndPicker;
+			productName = TapAndPicker;
+			productReference = FD475961290597EF00E44790 /* TapAndPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD475976290597F300E44790 /* TapAndPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD47598E290597F300E44790 /* Build configuration list for PBXNativeTarget "TapAndPickerTests" */;
+			buildPhases = (
+				FD475973290597F300E44790 /* Sources */,
+				FD475974290597F300E44790 /* Frameworks */,
+				FD475975290597F300E44790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD475979290597F300E44790 /* PBXTargetDependency */,
+			);
+			name = TapAndPickerTests;
+			productName = TapAndPickerTests;
+			productReference = FD475977290597F300E44790 /* TapAndPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD475980290597F300E44790 /* TapAndPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD475991290597F300E44790 /* Build configuration list for PBXNativeTarget "TapAndPickerUITests" */;
+			buildPhases = (
+				FD47597D290597F300E44790 /* Sources */,
+				FD47597E290597F300E44790 /* Frameworks */,
+				FD47597F290597F300E44790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD475983290597F300E44790 /* PBXTargetDependency */,
+			);
+			name = TapAndPickerUITests;
+			productName = TapAndPickerUITests;
+			productReference = FD475981290597F300E44790 /* TapAndPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD475959290597EF00E44790 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FD475960290597EF00E44790 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FD475976290597F300E44790 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FD475960290597EF00E44790;
+					};
+					FD475980290597F300E44790 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FD475960290597EF00E44790;
+					};
+				};
+			};
+			buildConfigurationList = FD47595C290597EF00E44790 /* Build configuration list for PBXProject "TapAndPicker" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD475958290597EF00E44790;
+			productRefGroup = FD475962290597EF00E44790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD475960290597EF00E44790 /* TapAndPicker */,
+				FD475976290597F300E44790 /* TapAndPickerTests */,
+				FD475980290597F300E44790 /* TapAndPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD47595F290597EF00E44790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD475971290597F300E44790 /* LaunchScreen.storyboard in Resources */,
+				FD47596E290597F300E44790 /* Assets.xcassets in Resources */,
+				FD47596C290597EF00E44790 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD475975290597F300E44790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD47597F290597F300E44790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD47595D290597EF00E44790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD475969290597EF00E44790 /* DatePickerViewController.swift in Sources */,
+				FD475965290597EF00E44790 /* AppDelegate.swift in Sources */,
+				FD4759D72905B3FF00E44790 /* ComponentEnum.swift in Sources */,
+				FD47599729059A2600E44790 /* MultiComponentPickerViewController.swift in Sources */,
+				FD475967290597EF00E44790 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD475973290597F300E44790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD47597C290597F300E44790 /* TapAndPickerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD47597D290597F300E44790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD475988290597F300E44790 /* TapAndPickerUITestsLaunchTests.swift in Sources */,
+				FD475986290597F300E44790 /* TapAndPickerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD475979290597F300E44790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD475960290597EF00E44790 /* TapAndPicker */;
+			targetProxy = FD475978290597F300E44790 /* PBXContainerItemProxy */;
+		};
+		FD475983290597F300E44790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD475960290597EF00E44790 /* TapAndPicker */;
+			targetProxy = FD475982290597F300E44790 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD47596A290597EF00E44790 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD47596B290597EF00E44790 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD47596F290597F300E44790 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD475970290597F300E44790 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD475989290597F300E44790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD47598A290597F300E44790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD47598C290597F300E44790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TapAndPicker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TapAndPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD47598D290597F300E44790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TapAndPicker/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TapAndPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD47598F290597F300E44790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TapAndPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapAndPicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TapAndPicker";
+			};
+			name = Debug;
+		};
+		FD475990290597F300E44790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TapAndPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapAndPicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TapAndPicker";
+			};
+			name = Release;
+		};
+		FD475992290597F300E44790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TapAndPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapAndPicker;
+			};
+			name = Debug;
+		};
+		FD475993290597F300E44790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TapAndPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapAndPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD47595C290597EF00E44790 /* Build configuration list for PBXProject "TapAndPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD475989290597F300E44790 /* Debug */,
+				FD47598A290597F300E44790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD47598B290597F300E44790 /* Build configuration list for PBXNativeTarget "TapAndPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD47598C290597F300E44790 /* Debug */,
+				FD47598D290597F300E44790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD47598E290597F300E44790 /* Build configuration list for PBXNativeTarget "TapAndPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD47598F290597F300E44790 /* Debug */,
+				FD475990290597F300E44790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD475991290597F300E44790 /* Build configuration list for PBXNativeTarget "TapAndPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD475992290597F300E44790 /* Debug */,
+				FD475993290597F300E44790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD475959290597EF00E44790 /* Project object */;
+}
